@@ -347,7 +347,8 @@ function remove_installed_libav() {
 # $1 - FFmpeg version to use (eg. n4.2.1)
 function install_ffmpeg_ver() {
     rc=1
-    extra_build_flags="--quadra --ffprobe --shared --custom_flags=--enable-libvmaf"
+    #extra_build_flags="--quadra --ffprobe --shared --custom_flags=--enable-libvmaf"
+    extra_build_flags="--quadra --ffprobe --shared"
     remove_shared_lib=true
 
     echo "Installation Path: ./FFmpeg/"
