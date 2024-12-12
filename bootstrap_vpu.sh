@@ -20,7 +20,7 @@ if [[ ! -e quadra_quick_installer.sh ]]; then
 fi
 
 apt update
-apt install -y nvme-cli screen libopencv-dev libjson-c-dev libcanberra-gtk-module libcanberra-gtk3-module devscripts make zip unzip yasm mediainfo
+apt install -y nvme-cli screen libopencv-dev libjson-c-dev libcanberra-gtk*-module devscripts make zip unzip yasm mediainfo
 
 tar xvfz Quadra_AI_V4.5.tar.gz
 
